@@ -7,7 +7,7 @@
 **University:** Astana IT University
 
 ## Live Demo
-https://<Azatlik29>.github.io/<Web_assignment1>/
+[https://<Azatlik29>.github.io/<Web_assignment1>/](https://github.com/Azatlik29/Web_assignment1)
 
 ## Overview
 This repository contains all completed tasks for Assignment #1 and the proposal for the Midterm Project (Gaming Hub).
