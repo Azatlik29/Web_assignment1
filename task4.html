@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 4 - Tables and Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Web Assignment #1</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Task 1 (Profile)</a></li>
+            <li><a href="task2.html">Task 2 (Layout)</a></li>
+            <li><a href="task3.html">Task 3 (Tribute)</a></li>
+            <li><a href="task4.html" class="active">Task 4 (Table & Form)</a></li>
+            <li><a href="task5.html">Task 5 (Midterm)</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h2 id="table-title">Student Academic Performance</h2>
+        <table class="grades-table">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><strong>Azat</strong></td>
+                    <td>Object-Oriented Programming (Java)</td>
+                    <td>A</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>Data Structures & Algorithms (C++)</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Relational Databases (PostgreSQL)</td>
+                    <td>B+</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right;"><strong>Semester GPA:</strong></td>
+                    <td><strong>3.8</strong></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h2 style="text-align: center; margin-top: 40px;">System Feedback Form</h2>
+        <div class="form-container">
+            <form id="feedback-form" action="#" method="POST">
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="example@astanait.edu.kz">
+
+                <label for="role">Your Role:</label>
+                <select id="role" name="role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label>Would you recommend this course?</label>
+                <div class="radio-group">
+                    <input type="radio" id="yes" name="recommend" value="yes" checked>
+                    <label for="yes">Yes</label>
+
+                    <input type="radio" id="no" name="recommend" value="no">
+                    <label for="no">No</label>
+                </div>
+
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Type your feedback here..."></textarea>
+
+                <button type="submit" class="submit-btn">Submit Feedback</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
