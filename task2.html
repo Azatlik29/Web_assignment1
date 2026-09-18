@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2 - Webpage Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Task 2: Float Positioning Layout</h1>
+    </header>
+    <nav class="navbar">
+        <div class="logo">Web Assignment #1</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Task 1 (Profile)</a></li>
+            <li><a href="task2.html" class="active">Task 2 (Layout)</a></li>
+            <li><a href="task3.html">Task 3 (Tribute)</a></li>
+            <li><a href="task4.html">Task 4 (Table & Form)</a></li>
+            <li><a href="task5.html">Task 5 (Midterm)</a></li>
+        </ul>
+    </nav>
+    <div class="container clearfix" id="layout-container">
+        <aside class="sidebar">
+            <h3>Sidebar Menu</h3>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">My Profile</a></li>
+            </ul>
+        </aside>
+        <main class="main-aside-content">
+            <h2>Main Content Area</h2>
+            <p>This layout is built entirely using <strong>CSS floats</strong>. The sidebar floats to the left, and this main content area floats to the right. We use a "clearfix" technique on the parent container so the footer stays at the bottom and doesn't collapse into the floated elements.</p>
+        </main>
+
+    </div>
+
+    <footer class="layout-footer">
+        <p>&copy; 2026 Web Assignment. Float Layout.</p>
+    </footer>
+</body>
+</html>
