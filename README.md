@@ -1,7 +1,9 @@
 # Assignment 1 - HTML & CSS Basics
 
 **Student Name:** Azat
-**Group;** SE-2526
+
+**Group:** SE-2526
+
 **University:** Astana IT University
 
 ## Live Demo
