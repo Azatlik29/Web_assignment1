@@ -50,6 +50,10 @@ body {
     color: #3498db;
 }
 
+
+
+
+
 h1, h2, h3 {
     color: #2c3e50;
     margin-bottom: 15px;
@@ -81,6 +85,12 @@ h1, h2, h3 {
 .external-link:hover {
     text-decoration: underline;
 }
+
+
+
+
+
+
 
 .main-header {
     background-color: #3498db;
